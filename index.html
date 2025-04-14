@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS - assign 7</title>
+</head>
+<body>
+    
+    <!-- chapter (35 to 38) from line 
+    " 1 - 264 " -->
+    
+    <!-- chapter (38 to 42) from line "268 - 437" --> 
+    
+    <!-- chapter (43 to 48) "Events" - Starts -->
+    
+<!-- Q # 1 -->
+    
+    <h3>1. Alert on Click</h3>
+<a href="#" onclick="alert('Link clicked!')">Click Me</a>
+
+<!-- Q # 2 -->
+
+<h3>2. Mobile Images</h3>
+<img src="https://via.placeholder.com/100x150?text=Mobile1" onclick="alert('Thanks for your purchasing')" />
+
+<img src="https://via.placeholder.com/100x150?text=Mobile2" onclick="alert('Thanks for your purchasing')" />
+
+<!-- Q # 3 -->
+
+<h3>3. Student Records</h3>
+<table id="studentTable">
+    <tr>
+    <th>Name</th>
+    <th>Class</th>
+    <th>Action</th>
+    </tr>
+    </table>
+    
+<!-- Q # 4 -->
+
+<h3>4. Change Image on Hover</h3>
+<img id="hoverImg"
+    src="https://via.placeholder.com/100x150?text=Original"
+    onmouseover="this.src='https://via.placeholder.com/100x150?text=Hovered'"
+    onmouseout="this.src='https://via.placeholder.com/100x150?text=Original'" />
+    
+<!-- Q # 5 -->
+
+<h3>5. Counter</h3>
+<p>Counter: <span id="counterValue">0</span></p>
+<button onclick="changeCounter(1)">Increase</button>
+<button onclick="changeCounter(-1)">Decrease</button>
+
+   <!-- chapter (43 to 48) "Events" - Endss -->
+
+   <script src="app.js"></script>
+</body>
+</html>
